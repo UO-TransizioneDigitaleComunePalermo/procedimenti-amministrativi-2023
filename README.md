@@ -1,8 +1,5 @@
-# `Elenco` delle scadenze relative alle azioni del Piano triennale per l'informatica 2024-2026
-
-Elenco delle azioni del Piano: [https://uo-transizionedigitalecomunepalermo.github.io/scadenze-pianoinformatica-2024-2026/](https://uo-transizionedigitalecomunepalermo.github.io/scadenze-pianoinformatica-2024-2026)
-
-Il Piano redatto dall'AGID: [Piano triennale per l'informatica 2024-2026](https://docs.italia.it/italia/piano-triennale-ict/pianotriennale-ict-doc/it/2024-2026/index.html).
+# `Catalogo` dei procedimenti amministrativi del comune di Palermo, redatto nel 2023
+[https://uo-transizionedigitalecomunepalermo.github.io/procedimenti-amministrativi-2023](https://uo-transizionedigitalecomunepalermo.github.io/procedimenti-amministrativi-2023)
 
 ### Gli strumenti principali usati per realizzare la visualizzazione del `catalogo` sono quattro:
 - [**Simile Exhibit**](http://www.simile-widgets.org/exhibit3/), per realizzare l'interfaccia di navigazione del catalogo;
