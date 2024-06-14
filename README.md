@@ -1,4 +1,4 @@
-# Scadenze del Piano triennale per l'informatica 2024-2026
+# Catalogo dei procedimenti amministrativi del comune di Palermo, redatto nel 2023
 
-[**interfaccia per visualizzare le scadenze del Piano triennale per l'informatica 2024-2026**](https://uo-transizionedigitalecomunepalermo.github.io/scadenze-pianoinformatica-2024-2026)
+[**Catalogo**](https://uo-transizionedigitalecomunepalermo.github.io/procedimenti-amministrativi-2023)
 
