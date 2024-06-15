@@ -117,34 +117,34 @@
 			</div>
 		</div>
 		<div class="row clearfix">
-			<div class="col-md-10 column">
+			<div class="col-md-12 column">
 				<div ex:role="facet" 
 				ex:facetClass="Cloud"
-				ex:expression=".capitolo" 
-				ex:facetLabel="Capitolo"
+				ex:expression=".area_tematica" 
+				ex:facetLabel="Area tematica"
 				ex:sortMode="count"></div>
 			
 			</div>  
-			<div class="col-md-2 column">
+			<div class="col-md-3 column">
 				<div ex:role="facet" 
-				ex:expression=".azioni_nel_triennio" 
-				ex:facetLabel="Azioni nel triennio"
+				ex:expression=".ufficio" 
+				ex:facetLabel="Ufficio"
 				ex:missingLabel="da individuare"
 				ex:sortMode="count"></div>
 			
 			</div>  
 			<div class="col-md-2 column">
 				<div ex:role="facet" 
-				ex:expression=".codice_ob" 
-				ex:facetLabel="Codice Obiettivo"
+				ex:expression=".categoria" 
+				ex:facetLabel="Categoria"
 				ex:missingLabel="da individuare"
 				ex:sortMode="count"></div>
 			
 			</div>
 			<div class="col-md-2 column">
 				<div ex:role="facet" 
-				ex:expression=".codice" 
-				ex:facetLabel="Codice Azione"
+				ex:expression=".servizio_cittadino_impresa" 
+				ex:facetLabel="Servizi a cittadino/impresa"
 				ex:missingLabel="da individuare"
 				ex:sortMode="count"></div>	
 				
@@ -186,8 +186,8 @@
 					<div ex:role="exhibit-view" 
 					ex:viewClass="Exhibit.TabularView"  
 					ex:label="Table"  
-					ex:columns=".codice,.descrizione_linea_azione,.capitolo,.codice_ob,.descrizione_obiettivo,.dal,.entro_il,.palermo"  
-					ex:columnLabels="Codice, Descrizione, Capitolo, Codice Obiettivo, Descrizione Obiettivo, Dalla data, Entro la data, Comune Palermo" 
+					ex:columns=".nome_procedimento,.area_tematica,.ufficio,.email_resp_procedimento,.telefono,.normativa_riferimento,.servizio_cittadino_impresa,.altri_contatti"  
+					ex:columnLabels="Procedimento, Area tematica, Ufficio, Email, Telefono, Normativa, Servizio a cittadino/impresa, Contatti" 
 					ex:columnFormats="list,list,list,list,list,list,list,list"
 					ex:sortColumn="8"
 					ex:sortAscending="true"
@@ -197,14 +197,14 @@
 							<table class="table">
 								<tr>
 									<!-- <td><strong><span ex:content=".codice"></strong></td> -->
-									<td><a ex:href-content=".link_azione" ex:onclick-subcontent="trackOutboundLink('.link_azione'); return false;" target="_blank"><strong><span ex:content=".codice" class="accussì"></strong></span></a></td> 
-									<td><span ex:content=".descrizione_linea_azione"></td>
-									<td><span ex:content=".capitolo"></span></td>
-									<td><span ex:content=".codice_ob"></span></td>
-									<td><span ex:content=".descrizione_obiettivo"></span></td>
-									<td><span ex:content=".dal"></span></td>
-									<td><span ex:content=".entro_il"></span></td>
-									<td><span ex:content=".palermo"></span></td>
+									<td><a ex:href-content=".nome_procedimento" ex:onclick-subcontent="trackOutboundLink('.link_azione'); return false;" target="_blank"><strong><span ex:content=".nome_procedimento" class="accussì"></strong></span></a></td> 
+									<td><span ex:content=".area_tematica"></td>
+									<td><span ex:content=".ufficio"></span></td>
+									<td><span ex:content=".email_resp_procedimento"></span></td>
+									<td><span ex:content=".telefono"></span></td>
+									<td><span ex:content=".normativa_riferimento"></span></td>
+									<td><span ex:content=".servizio_cittadino_impresa"></span></td>
+									<td><span ex:content=".altri_contatti"></span></td>
 									<!-- <td><span ex:content=".link_azione"></span></td> -->
 								</tr>
 							</table>
