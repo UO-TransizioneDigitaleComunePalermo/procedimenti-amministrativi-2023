@@ -160,8 +160,8 @@
 					<div ex:role="exhibit-view" 
 					ex:viewClass="Exhibit.TabularView"  
 					ex:label="Table"  
-					ex:columns=".nome_procedimento,.area_tematica,.ufficio,.email_resp_procedimento,.telefono,.normativa_riferimento,.servizio_cittadino_impresa,.id_procedimento"  
-					ex:columnLabels="Procedimento, Area tematica, Ufficio, Email, Telefono, N o r m a t i v a, Cittadino/Impresa, Cod." 
+					ex:columns=".nome_procedimento,.area_tematica,.ufficio,.email_resp_procedimento,.telefono,.accesso,.servizio_cittadino_impresa,.id_procedimento"  
+					ex:columnLabels="Procedimento, Area tematica, Ufficio, Email, Telefono, A c c e s s o, Cittadino/Impresa, Cod." 
 					ex:columnFormats="list,list,list,list,list,list,list,list"
 					ex:sortColumn="8"
 					ex:sortAscending="true"
@@ -170,13 +170,13 @@
 						<div class="table-responsive">
 							<table class="table">
 								<tr>
-									<!-- <td><strong><span ex:content=".nome_procedimento"></strong></td> -->
-									<td><a ex:href-content=".nome_procedimento" ex:onclick-subcontent="trackOutboundLink('.nome_procedimento'); return false;" target="_blank"><strong><span ex:content=".nome_procedimento" class="accussì"></strong></span></a></td> 
+									<td><strong><span ex:content=".nome_procedimento"></strong></td> 
+									<!--  <td><a ex:href-content=".nome_procedimento" ex:onclick-subcontent="trackOutboundLink('.nome_procedimento'); return false;" target="_blank"><strong><span ex:content=".nome_procedimento" class="accussì"></strong></span></a></td> -->
 									<td><span ex:content=".area_tematica"></td>
 									<td><span ex:content=".ufficio"></span></td>
 									<td><span ex:content=".email_resp_procedimento"></span></td>
 									<td><span ex:content=".telefono"></span></td>
-									<td><span ex:content=".normativa_riferimento"></span></td>
+									<td><span ex:content=".accesso_riferimento"></span></td>
 									<td><span ex:content=".servizio_cittadino_impresa"></span></td>
 									<td><span ex:content=".id_procedimento"></span></td>
 									<!-- <td><span ex:content=".link_azione"></span></td> -->
